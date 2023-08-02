@@ -1,0 +1,111 @@
+Loss functions and gradient descent
+  - What is a loss function?  What role does it play?
+  - Common loss functions: 0/1, hinge
+  - What is gradient descent?  What role does it play?
+
+Peceptrons
+  - The role of w.x and yw.x
+  - The update rule, the entire algorithm
+
+Geometry of hyperplanes
+  - Weight vector is perpendicular to hyperplane
+  - Weight vector points in direction of + side
+  - Geometric intuition as to why the Perceptron algorithm works
+  - Linear separability
+
+Reading:
+  - Chapter 1 of my notebook and Chapter 2 through 2.4
+  - CIML 3.1, 4.1 - 4.3
+
+Sample questions:
+  - Given a simple dataset, give a set of weights that separate it
+  - Given some data, perform a couple of perceptron updates
+  - Given a novel loss function, compute one gradient descent update
+  - Why is the 0/1 loss not well-suited for gradient descent?
+
+
+
+Decision trees
+  - Tree representation, test and leaf nodes
+  - Role of entropy, information gain
+  - Learning algorithm
+  - Role of pruning (not the algorithm)
+  - Overfitting
+
+Reading: Mitchell chapter 3.1 - 3.4, 3.7
+
+Sample questions:
+  - Choose the root split for a dataset (no math required)
+  - Draw the decision boundary given a tree
+  - Given an underlying concept and a tree explain whether it has
+    overfit and why
+
+
+
+Logistic regression
+  - Role of sigmoid
+  - The objective function
+  - Sketch of algorithm derivation
+  - Interpreting the weights
+
+Reading: Rely on class notes
+
+Sample questions:
+  - Given weights, indicate which features are important to which
+    classes
+  - What happens to rate of convergence if all of the features values
+    are multiplied by a constant (either < 1 or > 1)?
+
+
+
+Clustering
+  - What is unsupervised learning?
+  - k-means algorithm
+  - What is the role of k?
+  - Agglomerative (bottom-up) clustering
+  - Distance measures between clusters (as opposed to points)
+  
+Nearest neighbors
+  - What is the algorithm?
+  - What is the role of k?
+
+Reading: CIML chapter 3 through 3.4 (http://ciml.info/dl/v0_99/ciml-v0_99-all.pdf)
+
+Sample questions:
+  - Draw decision boundary for dataset for KNN given a value of k
+  - Run k-means by hand on a small dataset
+  - Explain what happens for small and large k for both algorithms
+
+
+
+Methodology
+  - TP, FP, TN, FP
+  - P, R, F
+  - PR curves
+
+Reading: Rely on notes and slides
+
+Sample questions:
+  - Given a 2x2 contingency table, compute metrics like P and R and F
+  - Explain why it is hard to maximize P and R at the same time and
+    why they pull in different directions
+
+
+
+Reinforcement learning
+  - Markov decision processes: states, actions, transitions, rewards
+  - State value functions
+  - Action value functions
+  - Returns vs. rewards, discounting
+  - Q learning
+
+Reading:
+https://web.stanford.edu/class/psych209/Readings/SuttonBartoIPRLBook2ndEd.pdf
+  Chapter 3 and 6.5
+
+Sample questions:
+  - Write down an MDP from a description of a domain
+  - Given an MDP say what the optimal policy is and why
+  - Given a Q-table and a (s, a, s', r) tuple, update the table
+
+
